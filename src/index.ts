@@ -17,6 +17,8 @@ createConnection().then(connection => {
         return res.json(uf)
     })
 
+    
+
     app.listen(3000)
 
 }).catch(error => console.log(error))
